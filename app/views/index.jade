@@ -8,3 +8,8 @@ block vars
 block container
   main
     p(data-plugin) TODO
+
+    .video-contain
+      #loadVideo(data-video-src="https://www.youtube.com/embed/CqdA91HpGBc?rel=0&autoplay=1")
+        img(src="images/sflahave.jpg", alt="")
+        iframe#video(width='450', height='300', src='urldemo', frameborder='0', allowfullscreen='')
